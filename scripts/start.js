@@ -111,7 +111,7 @@ checkBrowsers(paths.appPath, isInteractive)
       if (isInteractive) {
         clearConsole();
       }
-      console.log(chalk.cyan('Starting the development server with Custom React Scripts...\n'));
+      console.log(chalk.cyan('Starting the development server with Local Custom React Scripts...\n'));
       openBrowser(urls.localUrlForBrowser);
     });
 
